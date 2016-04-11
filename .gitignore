@@ -1,2 +1,3 @@
-target
-.apt-generated
+target/
+.apt-generated/
+WEB-INF/classes/

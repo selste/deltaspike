@@ -1,0 +1,14 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0      3  11.04.16 08:12:26:494 MESZ  11.04.16 08:12:26:621 MESZ java.lang.NoClassDefFoundError com.ibm.ws.webbeans.impl.scanner.LibertyScannerService.loadBeanClasses 553
+                                                                            - C:\Daten\Programme\wlp-runtime-8.5.5.9\usr\servers\showcase\logs\ffdc\ffdc_16.04.11_08.12.26.0.log
+                                                                            - C:\Daten\Programme\wlp-runtime-8.5.5.9\usr\servers\showcase\logs\ffdc\ffdc_16.04.11_08.12.26.1.log
+                                                                            - C:\Daten\Programme\wlp-runtime-8.5.5.9\usr\servers\showcase\logs\ffdc\ffdc_16.04.11_08.12.26.2.log
+     1      1  11.04.16 08:12:27:641 MESZ  11.04.16 08:12:27:641 MESZ java.lang.NullPointerException com.ibm.ws.container.service.state.internal.ModuleStateManager 32
+                                                                            - C:\Daten\Programme\wlp-runtime-8.5.5.9\usr\servers\showcase\logs\ffdc\ffdc_16.04.11_08.12.27.0.log
+     2      1  11.04.16 08:12:27:672 MESZ  11.04.16 08:12:27:672 MESZ com.ibm.ws.container.service.state.StateChangeException com.ibm.ws.app.manager.web.internal.WebModuleHandlerImpl 96
+                                                                            - C:\Daten\Programme\wlp-runtime-8.5.5.9\usr\servers\showcase\logs\ffdc\ffdc_16.04.11_08.12.27.1.log
+     3      1  11.04.16 08:36:09:815 MESZ  11.04.16 08:36:09:815 MESZ java.lang.IllegalStateException com.ibm.ws.artifact.loose.internal.LooseArtifactNotifier 384
+                                                                            - C:\Daten\Programme\wlp-runtime-8.5.5.9\usr\servers\showcase\logs\ffdc\ffdc_16.04.11_08.36.09.0.log
+------+------+---------------------------+---------------------------+---------------------------

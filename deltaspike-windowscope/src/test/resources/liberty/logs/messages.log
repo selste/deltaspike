@@ -1,0 +1,182 @@
+********************************************************************************
+product = WebSphere Application Server 8.5.5.9 (wlp-1.0.12.cl50920160227-1523)
+wlp.install.dir = C:/Daten/Programme/wlp-runtime-8.5.5.9/
+java.home = C:\Daten\Programme\jdk1.8.0_74\jre
+java.version = 1.8.0_74
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_74-b02)
+os = Windows 7 (6.1; amd64) (de_DE)
+process = 4704@W698D434
+********************************************************************************
+[11.04.16 08:12:12:440 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Der Server showcase wurde gestartet.
+[11.04.16 08:12:12:454 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: Dieses Produkt ist für den Entwicklungseinsatz und einen beschränkten Produktionseinsatz lizenziert. Die vollständigen Lizenzbedingungen finden Sie unter https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/8.5.5.9/lafiles/de.html.
+[11.04.16 08:12:13:448 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Der Kernel wurde nach 1,238 Sekunden gestartet.
+[11.04.16 08:12:13:490 MESZ] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Die Featureaktualisierung wurde gestartet.
+[11.04.16 08:12:13:916 MESZ] 00000010 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: Der Sicherheitsservice wird gestartet...
+[11.04.16 08:12:14:256 MESZ] 00000010 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: dropins auf Anwendungen überwachen. 
+[11.04.16 08:12:14:517 MESZ] 0000001b com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: Der TCP-Kanal defaultHttpEndpoint wurde gestartet und ist jetzt für Anforderungen auf dem Host 127.0.0.1  (IPv4: 127.0.0.1) an Port 9080 empfangsbereit.
+[11.04.16 08:12:14:950 MESZ] 0000001b com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: Der Sicherheitsservice ist bereit.
+[11.04.16 08:12:14:951 MESZ] 0000001b com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreator       I CWWKS4105I: Die LTPA-Konfiguration ist nach 0,142 Sekunden bereit.
+[11.04.16 08:12:15:801 MESZ] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: Die Instanz von WebSphere Dynamic Cache mit dem Namen baseCache wurde ordnungsgemäß initialisiert.
+[11.04.16 08:12:15:804 MESZ] 00000010 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: Der Cacheprovider default wird verwendet.
+[11.04.16 08:12:15:805 MESZ] 00000010 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (Objektcache) wurde erfolgreich initialisiert.
+[11.04.16 08:12:15:966 MESZ] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Im Server wurden die folgenden Features installiert: [jsf-2.0, ejbLite-3.1, jsp-2.2, managedBeans-1.0, servlet-3.0, ssl-1.0, jndi-1.0, cdi-1.0, localConnector-1.0, jdbc-4.0, appSecurity-2.0, jaxrs-1.1, json-1.0, webProfile-6.0, distributedMap-1.0, beanValidation-1.0, jpa-2.0].
+[11.04.16 08:12:15:966 MESZ] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Die Featureaktualisierung wurde in 2,517 Sekunden durchgeführt.
+[11.04.16 08:12:15:966 MESZ] 00000017 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Der Server showcase ist bereit.
+[11.04.16 08:12:24:121 MESZ] 00000025 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Die Aktualisierung der Serverkonfiguration wird gestartet.
+[11.04.16 08:12:24:188 MESZ] 00000025 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: Die Serverkonfiguration wurde erfolgreich in 0,070 Sekunden aktualisiert.
+[11.04.16 08:12:24:224 MESZ] 00000019 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Die Anwendung deltaspike-windowscope wird gestartet.
+[11.04.16 08:12:25:265 MESZ] 00000019 com.ibm.ws.rsadapter.DSConfigHelper                          W DSRA0174W: Warnung: Es wird GenericDataStoreHelper verwendet.
+[11.04.16 08:12:25:324 MESZ] 00000019 com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0010I: Die Wiederherstellung für den lokalen WebSphere-Server (Server) wird durchgeführt.
+[11.04.16 08:12:25:425 MESZ] 00000019 com.ibm.ws.recoverylog.spi.RecoveryDirectorImpl              I CWRLS0012I: Alle persistenten Services wurden angewiesen, die Wiederherstellung für den WebSphere-Server (Server) durchzuführen.
+[11.04.16 08:12:25:425 MESZ] 00000029 com.ibm.tx.jta.impl.RecoveryManager                          I WTRN0135I: Der Transaktionsservice stellt keine Transaktionen wieder her.
+[11.04.16 08:12:25:661 MESZ] 00000019 openjpa.jdbc.JDBC                                            I CWWJP9990I: openjpa.jdbc.JDBC: Info: Es wird die Wörterbuchklasse "org.apache.openjpa.jdbc.sql.H2Dictionary" verwendet.
+[11.04.16 08:12:25:728 MESZ] 00000019 openjpa.Runtime                                              I CWWJP9990I: openjpa.Runtime: Info: OpenJPA hat einen Validierungsprovider dynamisch geladen.
+[11.04.16 08:12:25:795 MESZ] 00000019 org.apache.webbeans.config.PropertyLoader                    I could not find any property files with name META-INF/openwebbeans/openwebbeans.properties
+[11.04.16 08:12:25:854 MESZ] 00000019 org.apache.webbeans.web.lifecycle.WebContainerLifecycle      I Der OpenWebBeans-Container wird gestartet...
+[11.04.16 08:12:25:855 MESZ] 00000019 org.apache.webbeans.plugins.PluginLoader                     I OpenWebBeansPlugin wird hinzugefügt: [LibertyJavaEEPlugin]
+[11.04.16 08:12:25:855 MESZ] 00000019 org.apache.webbeans.plugins.PluginLoader                     I OpenWebBeansPlugin wird hinzugefügt: [WSWebPlugin]
+[11.04.16 08:12:25:855 MESZ] 00000019 org.apache.webbeans.plugins.PluginLoader                     I OpenWebBeansPlugin wird hinzugefügt: [WSEjbPlugin]
+[11.04.16 08:12:26:561 MESZ] 00000019 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.NoClassDefFoundError: javax/faces/lifecycle/LifecycleWrapper com.ibm.ws.webbeans.impl.scanner.LibertyScannerService.loadBeanClasses 553" unter ffdc_16.04.11_08.12.26.0.log
+[11.04.16 08:12:26:608 MESZ] 00000019 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.NoClassDefFoundError: javax/faces/application/ConfigurableNavigationHandlerWrapper com.ibm.ws.webbeans.impl.scanner.LibertyScannerService.loadBeanClasses 553" unter ffdc_16.04.11_08.12.26.1.log
+[11.04.16 08:12:26:643 MESZ] 00000019 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.NoClassDefFoundError: javax/faces/lifecycle/ClientWindow com.ibm.ws.webbeans.impl.scanner.LibertyScannerService.loadBeanClasses 553" unter ffdc_16.04.11_08.12.26.2.log
+[11.04.16 08:12:27:092 MESZ] 00000019 org.apache.deltaspike.core.util.ProjectStageProducer         I Computed the following DeltaSpike ProjectStage: Production
+[11.04.16 08:12:27:618 MESZ] 00000019 org.apache.webbeans.config.BeansDeployer                     I Alle Injektionspunkte wurden erfolgreich validiert.
+[11.04.16 08:12:27:624 MESZ] 00000019 org.apache.webbeans.context.LibertyContextsService           W Could NOT lazily initialize session context because NO active request context
+[11.04.16 08:12:27:633 MESZ] 00000019 org.apache.webbeans.component.ManagedBean                    E Bei der Injektion von Java-EE-Ressourcen für die Beaninstanz ist ein Fehler aufgetreten: [org.apache.deltaspike.core.impl.scope.window.WindowIdHolder@72ea2c1e]
+[11.04.16 08:12:27:633 MESZ] 00000019 org.apache.webbeans.config.BeansDeployer                     E null
+java.lang.NullPointerException
+	at java.util.concurrent.ConcurrentHashMap.get(ConcurrentHashMap.java:936)
+	at com.ibm.ws.webbeans.services.ResourceInjectionServiceImpl.injectJavaEEResources(ResourceInjectionServiceImpl.java:407)
+	at org.apache.webbeans.component.AbstractInjectionTargetBean.injectResources(AbstractInjectionTargetBean.java:435)
+	at org.apache.webbeans.portable.creation.InjectionTargetProducer.inject(InjectionTargetProducer.java:92)
+	at org.apache.webbeans.component.InjectionTargetWrapper.inject(InjectionTargetWrapper.java:76)
+	at org.apache.webbeans.component.AbstractOwbBean.create(AbstractOwbBean.java:180)
+	at org.apache.webbeans.context.creational.BeanInstanceBag.create(BeanInstanceBag.java:81)
+	at org.apache.webbeans.context.AbstractContext.getInstance(AbstractContext.java:152)
+	at org.apache.webbeans.context.AbstractContext.get(AbstractContext.java:130)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.getContextualInstance(NormalScopedBeanInterceptorHandler.java:154)
+	at org.apache.webbeans.web.intercept.RequestScopedBeanInterceptorHandler.getContextualInstance(RequestScopedBeanInterceptorHandler.java:80)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.invoke(NormalScopedBeanInterceptorHandler.java:114)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.invoke(NormalScopedBeanInterceptorHandler.java:108)
+	at org.apache.deltaspike.core.impl.scope.window.WindowIdHolder_$$_javassist_14.getWindowId(WindowIdHolder_$$_javassist_14.java)
+	at org.apache.deltaspike.core.impl.scope.window.WindowContextImpl.getCurrentWindowId(WindowContextImpl.java:85)
+	at org.apache.deltaspike.core.impl.scope.window.WindowContextImpl.isActive(WindowContextImpl.java:135)
+	at org.apache.webbeans.context.CustomContextImpl.isActive(CustomContextImpl.java:53)
+	at org.apache.webbeans.context.CustomPassivatingContextImpl.isActive(CustomPassivatingContextImpl.java:31)
+	at org.apache.webbeans.container.BeanManagerImpl.getContext(BeanManagerImpl.java:303)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.initiateBeanBag(NormalScopedBeanInterceptorHandler.java:69)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.<init>(NormalScopedBeanInterceptorHandler.java:62)
+	at org.apache.webbeans.proxy.ProxyFactory.createInterceptorHandler(ProxyFactory.java:249)
+	at org.apache.webbeans.proxy.ProxyFactory.createNormalScopedBeanProxy(ProxyFactory.java:206)
+	at org.apache.webbeans.container.BeanManagerImpl.getReference(BeanManagerImpl.java:840)
+	at org.apache.webbeans.container.InjectableBeanManager.getReference(InjectableBeanManager.java:158)
+	at org.apache.deltaspike.core.api.provider.BeanProvider.getContextualReference(BeanProvider.java:497)
+	at org.apache.deltaspike.core.api.provider.BeanProvider.getContextualReference(BeanProvider.java:157)
+	at org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension.initializeDeltaSpikeContexts(DeltaSpikeContextExtension.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.webbeans.intercept.InterceptorHandler.invoke(InterceptorHandler.java:331)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.invoke(NormalScopedBeanInterceptorHandler.java:117)
+	at org.apache.webbeans.intercept.NormalScopedBeanInterceptorHandler.invoke(NormalScopedBeanInterceptorHandler.java:108)
+	at org.apache.deltaspike.core.impl.scope.DeltaSpikeContextExtension_$$_javassist_0.initializeDeltaSpikeContexts(DeltaSpikeContextExtension_$$_javassist_0.java)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.webbeans.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:299)
+	at org.apache.webbeans.event.NotificationManager.fireEvent(NotificationManager.java:429)
+	at org.apache.webbeans.container.BeanManagerImpl.fireEvent(BeanManagerImpl.java:468)
+	at org.apache.webbeans.config.BeansDeployer.fireAfterDeploymentValidationEvent(BeansDeployer.java:331)
+	at org.apache.webbeans.config.BeansDeployer.deploy(BeansDeployer.java:187)
+	at org.apache.webbeans.lifecycle.AbstractLifeCycle.startApplication(AbstractLifeCycle.java:157)
+	at org.apache.webbeans.web.lifecycle.WebContainerLifecycle.startApplication(WebContainerLifecycle.java:99)
+	at com.ibm.ws.webbeans.services.CDIComponentImpl.moduleStarting(CDIComponentImpl.java:406)
+	at com.ibm.ws.container.service.state.internal.ModuleStateManager.fireStarting(ModuleStateManager.java:29)
+	at com.ibm.ws.container.service.state.internal.StateChangeServiceImpl.fireModuleStarting(StateChangeServiceImpl.java:81)
+	at com.ibm.ws.app.manager.web.internal.WebModuleHandlerImpl.deployModule(WebModuleHandlerImpl.java:95)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModule(DeployedAppInfoBase.java:871)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModules(DeployedAppInfoBase.java:831)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:818)
+	at com.ibm.ws.app.manager.war.internal.WARApplicationHandlerImpl.install(WARApplicationHandlerImpl.java:66)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:141)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1192)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1038)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:813)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+[11.04.16 08:12:27:671 MESZ] 00000019 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.NullPointerException com.ibm.ws.container.service.state.internal.ModuleStateManager 32" unter ffdc_16.04.11_08.12.27.0.log
+[11.04.16 08:12:27:731 MESZ] 00000019 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "com.ibm.ws.container.service.state.StateChangeException: java.lang.NullPointerException com.ibm.ws.app.manager.web.internal.WebModuleHandlerImpl 96" unter ffdc_16.04.11_08.12.27.1.log
+[11.04.16 08:12:27:737 MESZ] 00000019 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4003I: Das EJB-Modul deltaspike-windowscope.war in der Anwendung deltaspike-windowscope wird gestoppt.
+[11.04.16 08:12:27:741 MESZ] 00000019 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4004I: Das EJB-Modul deltaspike-windowscope.war in der Anwendung deltaspike-windowscope wurde erfolgreich gestoppt.
+[11.04.16 08:12:27:744 MESZ] 00000019 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4003I: Das EJB-Modul deltaspike-windowscope.war in der Anwendung deltaspike-windowscope wird gestoppt.
+[11.04.16 08:12:27:747 MESZ] 00000019 com.ibm.ws.ejbcontainer.osgi.internal.EJBRuntimeImpl         I CNTR4004I: Das EJB-Modul deltaspike-windowscope.war in der Anwendung deltaspike-windowscope wurde erfolgreich gestoppt.
+[11.04.16 08:12:27:751 MESZ] 00000019 com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0002E: Beim Starten der Anwendung deltaspike-windowscope ist eine Ausnahme eingetreten. Ausnahmenachricht: com.ibm.ws.container.service.state.StateChangeException: java.lang.NullPointerException
+[11.04.16 08:35:56:531 MESZ] 00000152 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0016I: Die Aktualisierung der Serverkonfiguration wird gestartet.
+[11.04.16 08:35:56:548 MESZ] 00000152 com.ibm.ws.config.xml.internal.ConfigRefresher               A CWWKG0017I: Die Serverkonfiguration wurde erfolgreich in 0,017 Sekunden aktualisiert.
+[11.04.16 08:36:09:690 MESZ] 00000160 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1100I: Serverstilllegung beginnt.
+[11.04.16 08:36:09:697 MESZ] 00000161 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Der TCP-Kanal defaultHttpEndpoint ist auf Host 127.0.0.1  (IPv4: 127.0.0.1) an Port 9080 nicht mehr für Anforderungen empfangsbereit.
+[11.04.16 08:36:09:700 MESZ] 00000160 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Serverstilllegung abgeschlossen.
+[11.04.16 08:36:09:856 MESZ] 00000160 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: Es wurde ein FFDC-Vorfall erstellt: "java.lang.IllegalStateException: The service has been unregistered com.ibm.ws.artifact.loose.internal.LooseArtifactNotifier 384" unter ffdc_16.04.11_08.36.09.0.log
+[11.04.16 08:36:09:864 MESZ] 00000160 LogService-57-com.ibm.ws.app.manager                         E CWWKE0701E: [com.ibm.ws.app.manager.internal.monitor.ApplicationMonitor(162)] The deactivate method has thrown an exception Bundle:com.ibm.ws.app.manager(id=57) java.lang.IllegalStateException
+	at com.ibm.ws.artifact.file.internal.FileContainerFactory.getBundleContext(FileContainerFactory.java:80)
+	at com.ibm.ws.artifact.file.FileArtifactNotifier.updateNonRecurseFileMonitorService(FileArtifactNotifier.java:360)
+	at com.ibm.ws.artifact.file.FileArtifactNotifier.updateMonitoredPaths(FileArtifactNotifier.java:232)
+	at com.ibm.ws.artifact.file.FileArtifactNotifier.registerForNotifications(FileArtifactNotifier.java:84)
+	at com.ibm.ws.artifact.overlay.internal.DirectoryBasedOverlayNotifier.removeListener(DirectoryBasedOverlayNotifier.java:181)
+	at com.ibm.ws.adaptable.module.internal.NotifierImpl.removeListener(NotifierImpl.java:88)
+	at com.ibm.ws.app.manager.internal.monitor.ApplicationMonitor$BaseApplicationListener.stop(ApplicationMonitor.java:361)
+	at com.ibm.ws.app.manager.internal.monitor.ApplicationMonitor$BaseApplicationListener.access$300(ApplicationMonitor.java:318)
+	at com.ibm.ws.app.manager.internal.monitor.ApplicationMonitor$ApplicationListeners.stopListeners(ApplicationMonitor.java:236)
+	at com.ibm.ws.app.manager.internal.monitor.ApplicationMonitor$ApplicationListeners.access$000(ApplicationMonitor.java:198)
+	at com.ibm.ws.app.manager.internal.monitor.ApplicationMonitor.deactivate(ApplicationMonitor.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod(BaseMethod.java:222)
+	at org.apache.felix.scr.impl.helper.BaseMethod.access$500(BaseMethod.java:37)
+	at org.apache.felix.scr.impl.helper.BaseMethod$Resolved.invoke(BaseMethod.java:615)
+	at org.apache.felix.scr.impl.helper.BaseMethod.invoke(BaseMethod.java:499)
+	at org.apache.felix.scr.impl.helper.ActivateMethod.invoke(ActivateMethod.java:295)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.disposeImplementationObject(SingleComponentManager.java:342)
+	at org.apache.felix.scr.impl.manager.SingleComponentManager.deleteComponent(SingleComponentManager.java:157)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.doDeactivate(AbstractComponentManager.java:783)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.deactivateInternal(AbstractComponentManager.java:757)
+	at org.apache.felix.scr.impl.manager.AbstractComponentManager.dispose(AbstractComponentManager.java:550)
+	at org.apache.felix.scr.impl.config.ConfigurableComponentHolder.disposeComponents(ConfigurableComponentHolder.java:706)
+	at org.apache.felix.scr.impl.BundleComponentActivator.dispose(BundleComponentActivator.java:544)
+	at org.apache.felix.scr.impl.Activator.disposeComponents(Activator.java:424)
+	at org.apache.felix.scr.impl.Activator.access$300(Activator.java:53)
+	at org.apache.felix.scr.impl.Activator$ScrExtension.destroy(Activator.java:283)
+	at org.apache.felix.utils.extender.AbstractExtender$2.run(AbstractExtender.java:290)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.felix.utils.extender.AbstractExtender.destroyExtension(AbstractExtender.java:312)
+	at org.apache.felix.utils.extender.AbstractExtender.bundleChanged(AbstractExtender.java:186)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.dispatchEvent(BundleContextImpl.java:903)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEventPrivileged(EquinoxEventPublisher.java:213)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:120)
+	at org.eclipse.osgi.internal.framework.EquinoxEventPublisher.publishBundleEvent(EquinoxEventPublisher.java:112)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor.publishModuleEvent(EquinoxContainerAdaptor.java:156)
+	at org.eclipse.osgi.container.Module.publishEvent(Module.java:461)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:619)
+	at org.eclipse.osgi.container.Module.stop(Module.java:483)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1623)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1542)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:248)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:147)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:621)
+	at org.eclipse.osgi.container.Module.stop(Module.java:483)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:165)
+	at java.lang.Thread.run(Thread.java:745)
+  
+[11.04.16 08:36:09:936 MESZ] 00000160 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: Der Sicherheitsservice wurde gestoppt.
+[11.04.16 08:36:10:088 MESZ] 00000160 com.ibm.tx.jta.impl.FailureScopeController                   A WTRN0105I: Der Transaktionsservice wurde ordnungsgemäß beendet. Für keine der Transaktionen muss eine Fehlerbehebung durchgeführt werden.
+[11.04.16 08:36:10:333 MESZ] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: Der Server showcase wurde nach 23 Minuten, 58,109 Sekunden gestoppt.

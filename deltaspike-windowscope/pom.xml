@@ -5,12 +5,12 @@
 	<artifactId>deltaspike-windowscope</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	
+
 	<properties>
-		<deltaspike.version>1.5.4</deltaspike.version>
+		<codi.version>1.0.6</codi.version>
 		<tomee.version>1.7.3</tomee.version>
 	</properties>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -40,16 +40,37 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.deltaspike.modules</groupId>
-			<artifactId>deltaspike-jsf-module-api</artifactId>
-			<version>${deltaspike.version}</version>
+			<groupId>org.apache.myfaces.extensions.cdi.core</groupId>
+			<artifactId>myfaces-extcdi-core-api</artifactId>
+			<version>${codi.version}</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.deltaspike.modules</groupId>
-			<artifactId>deltaspike-jsf-module-impl</artifactId>
-			<version>${deltaspike.version}</version>
+			<groupId>org.apache.myfaces.extensions.cdi.core</groupId>
+			<artifactId>myfaces-extcdi-core-impl</artifactId>
+			<version>${codi.version}</version>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.myfaces.extensions.cdi.modules</groupId>
+			<artifactId>myfaces-extcdi-jsf20-module-api</artifactId>
+			<version>${codi.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.myfaces.extensions.cdi.modules</groupId>
+			<artifactId>myfaces-extcdi-jsf20-module-impl</artifactId>
+			<version>${codi.version}</version>
+			<scope>runtime</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.openjpa</groupId>
+			<artifactId>openjpa</artifactId>
+			<version>2.2.2</version>
+			<scope>provided</scope>
+		</dependency>
+
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-web-api</artifactId>
